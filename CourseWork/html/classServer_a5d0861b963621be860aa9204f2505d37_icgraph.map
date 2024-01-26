@@ -1,5 +1,0 @@
-<map id="Server::generateRandomSalt" name="Server::generateRandomSalt">
-<area shape="rect" id="node1" title="Генерация случайной соли" alt="" coords="249,5,459,32"/>
-<area shape="rect" id="node2" href="$classServer.html#adb4376b4a26fc35f73783566362aaf61" title="Запуск сервера" alt="" coords="108,5,201,32"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,32"/>
-</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Программная реализация сетевого сервера: Исходный файл server.h</title>
+<title>Программная реализвция сетевого сервера: Исходный файл server.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Программная реализация сетевого сервера
+   <div id="projectname">Программная реализвция сетевого сервера
    &#160;<span id="projectnumber">1</span>
    </div>
   </td>
@@ -80,20 +80,16 @@ $(function() {
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>: </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">int</span> port; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classServer.html#a3a8d1eb6bb992029e4d5fb5c2ac3a523">authenticateClient</a>(<span class="keyword">const</span> std::string&amp; username, <span class="keyword">const</span> std::string&amp; password, <span class="keyword">const</span> std::string&amp; databaseFile); </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    std::string <a class="code" href="classServer.html#a5d0861b963621be860aa9204f2505d37">generateRandomSalt</a>(); </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    std::string <a class="code" href="classServer.html#a97b49a71bd68cd880ffa001f314d664c">hashPassword</a>(<span class="keyword">const</span> std::string&amp; password, <span class="keyword">const</span> std::string&amp; salt); </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="classServer.html#a6b5580b2967c4aa8a178167c8f50d1eb">processVector</a>(<span class="keyword">const</span> std::vector&lt;int64_t&gt;&amp; vector); </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">bool</span> authenticateClient(<span class="keyword">const</span> std::string&amp; username, <span class="keyword">const</span> std::string&amp; password, <span class="keyword">const</span> std::string&amp; databaseFile); </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    std::string generateRandomSalt(); </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    std::string hashPassword(<span class="keyword">const</span> std::string&amp; password, <span class="keyword">const</span> std::string&amp; salt); </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">double</span> processVector(<span class="keyword">const</span> std::vector&lt;int64_t&gt;&amp; vector); </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classErrorTracker.html">ErrorTracker</a>* errorTracker; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
 <div class="ttc" id="aclassErrorTracker_html"><div class="ttname"><a href="classErrorTracker.html">ErrorTracker</a></div><div class="ttdef"><b>Definition:</b> errors.h:10</div></div>
 <div class="ttc" id="aclassServer_html"><div class="ttname"><a href="classServer.html">Server</a></div><div class="ttdef"><b>Definition:</b> server.h:11</div></div>
 <div class="ttc" id="aclassServer_html_a36e22ecf3d661114777743e1697f5cbf"><div class="ttname"><a href="classServer.html#a36e22ecf3d661114777743e1697f5cbf">Server::Server</a></div><div class="ttdeci">Server(ErrorTracker *errorTracker)</div><div class="ttdoc">Конструктор класса Server.</div><div class="ttdef"><b>Definition:</b> server.cpp:20</div></div>
-<div class="ttc" id="aclassServer_html_a3a8d1eb6bb992029e4d5fb5c2ac3a523"><div class="ttname"><a href="classServer.html#a3a8d1eb6bb992029e4d5fb5c2ac3a523">Server::authenticateClient</a></div><div class="ttdeci">bool authenticateClient(const std::string &amp;username, const std::string &amp;password, const std::string &amp;databaseFile)</div><div class="ttdoc">Аутентификация клиента</div><div class="ttdef"><b>Definition:</b> server.cpp:95</div></div>
-<div class="ttc" id="aclassServer_html_a5d0861b963621be860aa9204f2505d37"><div class="ttname"><a href="classServer.html#a5d0861b963621be860aa9204f2505d37">Server::generateRandomSalt</a></div><div class="ttdeci">std::string generateRandomSalt()</div><div class="ttdoc">Генерация случайной соли</div><div class="ttdef"><b>Definition:</b> server.cpp:126</div></div>
-<div class="ttc" id="aclassServer_html_a6b5580b2967c4aa8a178167c8f50d1eb"><div class="ttname"><a href="classServer.html#a6b5580b2967c4aa8a178167c8f50d1eb">Server::processVector</a></div><div class="ttdeci">double processVector(const std::vector&lt; int64_t &gt; &amp;vector)</div><div class="ttdoc">Вычисление по вектору</div><div class="ttdef"><b>Definition:</b> server.cpp:163</div></div>
-<div class="ttc" id="aclassServer_html_a97b49a71bd68cd880ffa001f314d664c"><div class="ttname"><a href="classServer.html#a97b49a71bd68cd880ffa001f314d664c">Server::hashPassword</a></div><div class="ttdeci">std::string hashPassword(const std::string &amp;password, const std::string &amp;salt)</div><div class="ttdoc">Хэширование</div><div class="ttdef"><b>Definition:</b> server.cpp:141</div></div>
 <div class="ttc" id="aclassServer_html_adb4376b4a26fc35f73783566362aaf61"><div class="ttname"><a href="classServer.html#adb4376b4a26fc35f73783566362aaf61">Server::run</a></div><div class="ttdeci">void run(int port, const std::string &amp;databaseFile, const std::string &amp;logFile)</div><div class="ttdoc">Запуск сервера</div><div class="ttdef"><b>Definition:</b> server.cpp:30</div></div>
 <div class="ttc" id="aerrors_8h_html"><div class="ttname"><a href="errors_8h.html">errors.h</a></div><div class="ttdoc">Заголовочный файл для модуля ERRORS.</div></div>
 </div><!-- fragment --></div><!-- contents -->

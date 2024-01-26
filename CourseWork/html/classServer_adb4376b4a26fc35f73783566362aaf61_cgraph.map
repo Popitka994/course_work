@@ -1,8 +1,0 @@
-<map id="Server::run" name="Server::run">
-<area shape="rect" id="node1" title="Запуск сервера" alt="" coords="5,107,99,133"/>
-<area shape="rect" id="node2" href="$classServer.html#a3a8d1eb6bb992029e4d5fb5c2ac3a523" title="Аутентификация клиента" alt="" coords="155,5,347,32"/>
-<area shape="rect" id="node3" href="$classServer.html#a5d0861b963621be860aa9204f2505d37" title="Генерация случайной соли" alt="" coords="147,56,356,83"/>
-<area shape="rect" id="node4" href="$classServer.html#a97b49a71bd68cd880ffa001f314d664c" title="Хэширование" alt="" coords="169,107,333,133"/>
-<area shape="rect" id="node5" href="$classServer.html#a6b5580b2967c4aa8a178167c8f50d1eb" title="Вычисление по вектору" alt="" coords="170,157,333,184"/>
-<area shape="rect" id="node6" href="$classErrorTracker.html#ab1851854c0f19f5578426c2447155dc2" title="Запись ошибок" alt="" coords="163,208,340,235"/>
-</map>

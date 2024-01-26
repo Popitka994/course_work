@@ -1,15 +1,5 @@
 \hypertarget{classServer}{}\doxysection{Класс Server}
 \label{classServer}\index{Server@{Server}}
-
-
-Граф связей класса Server\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=178pt]{classServer__coll__graph}
-\end{center}
-\end{figure}
 \doxysubsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
@@ -17,26 +7,6 @@
 \begin{DoxyCompactList}\small\item\em Конструктор класса \mbox{\hyperlink{classServer}{Server}}. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classServer_adb4376b4a26fc35f73783566362aaf61}{run}} (int port, const std\+::string \&database\+File, const std\+::string \&log\+File)
 \begin{DoxyCompactList}\small\item\em Запуск сервера \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Закрытые члены}
-\begin{DoxyCompactItemize}
-\item 
-bool \mbox{\hyperlink{classServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523}{authenticate\+Client}} (const std\+::string \&username, const std\+::string \&password, const std\+::string \&database\+File)
-\begin{DoxyCompactList}\small\item\em Аутентификация клиента \end{DoxyCompactList}\item 
-std\+::string \mbox{\hyperlink{classServer_a5d0861b963621be860aa9204f2505d37}{generate\+Random\+Salt}} ()
-\begin{DoxyCompactList}\small\item\em Генерация случайной соли \end{DoxyCompactList}\item 
-std\+::string \mbox{\hyperlink{classServer_a97b49a71bd68cd880ffa001f314d664c}{hash\+Password}} (const std\+::string \&password, const std\+::string \&salt)
-\begin{DoxyCompactList}\small\item\em Хэширование \end{DoxyCompactList}\item 
-double \mbox{\hyperlink{classServer_a6b5580b2967c4aa8a178167c8f50d1eb}{process\+Vector}} (const std\+::vector$<$ int64\+\_\+t $>$ \&vector)
-\begin{DoxyCompactList}\small\item\em Вычисление по вектору \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Закрытые данные}
-\begin{DoxyCompactItemize}
-\item 
-\mbox{\Hypertarget{classServer_a926c9dae229a62b6d33fdbb41dca6d82}\label{classServer_a926c9dae229a62b6d33fdbb41dca6d82}} 
-int {\bfseries port}
-\item 
-\mbox{\Hypertarget{classServer_ab9c0c92d6034793f3a33bd8d7b5940d2}\label{classServer_ab9c0c92d6034793f3a33bd8d7b5940d2}} 
-\mbox{\hyperlink{classErrorTracker}{Error\+Tracker}} $\ast$ {\bfseries error\+Tracker}
-\end{DoxyCompactItemize}
 
 
 \doxysubsection{Конструктор(ы)}
@@ -58,113 +28,6 @@ int {\bfseries port}
 
 
 \doxysubsection{Методы}
-\mbox{\Hypertarget{classServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523}\label{classServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523}} 
-\index{Server@{Server}!authenticateClient@{authenticateClient}}
-\index{authenticateClient@{authenticateClient}!Server@{Server}}
-\doxysubsubsection{\texorpdfstring{authenticateClient()}{authenticateClient()}}
-{\footnotesize\ttfamily bool Server\+::authenticate\+Client (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{username,  }\item[{const std\+::string \&}]{password,  }\item[{const std\+::string \&}]{database\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Аутентификация клиента 
-
-
-\begin{DoxyParams}{Аргументы}
-{\em username} & Имя пользователя \\
-\hline
-{\em password} & Пароль \\
-\hline
-{\em database\+File} & Путь к файлу базы данных \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Возвращает}
-true, если аутентификация успешна, иначе false 
-\end{DoxyReturn}
-Граф вызова функции\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{classServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{classServer_a5d0861b963621be860aa9204f2505d37}\label{classServer_a5d0861b963621be860aa9204f2505d37}} 
-\index{Server@{Server}!generateRandomSalt@{generateRandomSalt}}
-\index{generateRandomSalt@{generateRandomSalt}!Server@{Server}}
-\doxysubsubsection{\texorpdfstring{generateRandomSalt()}{generateRandomSalt()}}
-{\footnotesize\ttfamily std\+::string Server\+::generate\+Random\+Salt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Генерация случайной соли 
-
-\begin{DoxyReturn}{Возвращает}
-Сгенерированная соль 
-\end{DoxyReturn}
-Граф вызова функции\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{classServer_a5d0861b963621be860aa9204f2505d37_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{classServer_a97b49a71bd68cd880ffa001f314d664c}\label{classServer_a97b49a71bd68cd880ffa001f314d664c}} 
-\index{Server@{Server}!hashPassword@{hashPassword}}
-\index{hashPassword@{hashPassword}!Server@{Server}}
-\doxysubsubsection{\texorpdfstring{hashPassword()}{hashPassword()}}
-{\footnotesize\ttfamily std\+::string Server\+::hash\+Password (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{password,  }\item[{const std\+::string \&}]{salt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Хэширование 
-
-
-\begin{DoxyParams}{Аргументы}
-{\em password} & Пароль \\
-\hline
-{\em salt} & Соль \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Возвращает}
-Строка хэша 
-\end{DoxyReturn}
-Граф вызова функции\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{classServer_a97b49a71bd68cd880ffa001f314d664c_icgraph}
-\end{center}
-\end{figure}
-\mbox{\Hypertarget{classServer_a6b5580b2967c4aa8a178167c8f50d1eb}\label{classServer_a6b5580b2967c4aa8a178167c8f50d1eb}} 
-\index{Server@{Server}!processVector@{processVector}}
-\index{processVector@{processVector}!Server@{Server}}
-\doxysubsubsection{\texorpdfstring{processVector()}{processVector()}}
-{\footnotesize\ttfamily double Server\+::process\+Vector (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int64\+\_\+t $>$ \&}]{vector }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Вычисление по вектору 
-
-
-\begin{DoxyParams}{Аргументы}
-{\em vector} & Вектор \\
-\hline
-{\em salt} & Соль \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Возвращает}
-0, если вектор пуст или average -\/ среднее врифметическое, 
-\end{DoxyReturn}
-Граф вызова функции\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{classServer_a6b5580b2967c4aa8a178167c8f50d1eb_icgraph}
-\end{center}
-\end{figure}
 \mbox{\Hypertarget{classServer_adb4376b4a26fc35f73783566362aaf61}\label{classServer_adb4376b4a26fc35f73783566362aaf61}} 
 \index{Server@{Server}!run@{run}}
 \index{run@{run}!Server@{Server}}
@@ -184,22 +47,6 @@ true, если аутентификация успешна, иначе false
 {\em log\+File} & Путь к файлу журнала \\
 \hline
 \end{DoxyParams}
-Граф вызовов\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=343pt]{classServer_adb4376b4a26fc35f73783566362aaf61_cgraph}
-\end{center}
-\end{figure}
-Граф вызова функции\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=227pt]{classServer_adb4376b4a26fc35f73783566362aaf61_icgraph}
-\end{center}
-\end{figure}
 
 
 Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}

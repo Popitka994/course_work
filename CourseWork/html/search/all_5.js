@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['processvector_12',['processVector',['../classServer.html#a6b5580b2967c4aa8a178167c8f50d1eb',1,'Server']]]
+  ['server_11',['Server',['../classServer.html',1,'Server'],['../classServer.html#a36e22ecf3d661114777743e1697f5cbf',1,'Server::Server()']]],
+  ['server_2ecpp_12',['server.cpp',['../server_8cpp.html',1,'']]],
+  ['server_2eh_13',['server.h',['../server_8h.html',1,'']]]
 ];

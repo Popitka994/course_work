@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['main_10',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
-  ['main_2ecpp_11',['main.cpp',['../main_8cpp.html',1,'']]]
+  ['run_10',['run',['../classServer.html#adb4376b4a26fc35f73783566362aaf61',1,'Server']]]
 ];

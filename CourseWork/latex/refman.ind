@@ -1,0 +1,49 @@
+\begin{theindex}
+
+  \item {Auth}, \hyperpage{5}
+    \subitem {authenticate}, \hyperpage{5}
+    \subitem {hashPassword}, \hyperpage{6}
+  \item {auth.cpp}, \hyperpage{9}
+  \item {auth.h}, \hyperpage{9}
+  \item {authenticate}
+    \subitem {Auth}, \hyperpage{5}
+
+  \indexspace
+
+  \item {errors.cpp}, \hyperpage{10}
+  \item {errors.h}, \hyperpage{11}
+  \item {ErrorTracker}, \hyperpage{6}
+    \subitem {ErrorTracker}, \hyperpage{6}
+    \subitem {writeToLog}, \hyperpage{7}
+
+  \indexspace
+
+  \item {hashPassword}
+    \subitem {Auth}, \hyperpage{6}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{13}
+  \item {main.cpp}, \hyperpage{12}
+    \subitem {main}, \hyperpage{13}
+
+  \indexspace
+
+  \item {run}
+    \subitem {Server}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Server}, \hyperpage{7}
+    \subitem {run}, \hyperpage{8}
+    \subitem {Server}, \hyperpage{7}
+  \item {server.cpp}, \hyperpage{14}
+  \item {server.h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {writeToLog}
+    \subitem {ErrorTracker}, \hyperpage{7}
+
+\end{theindex}

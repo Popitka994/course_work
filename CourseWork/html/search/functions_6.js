@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['run_35',['run',['../classServer.html#adb4376b4a26fc35f73783566362aaf61',1,'Server']]]
+  ['writetolog_31',['writeToLog',['../classErrorTracker.html#ab1851854c0f19f5578426c2447155dc2',1,'ErrorTracker']]]
 ];
