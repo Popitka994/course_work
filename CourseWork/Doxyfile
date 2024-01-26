@@ -1,0 +1,10 @@
+PROJECT_NAME           = "Программная реализация сетевого сервера"
+PROJECT_NUMBER         =1
+OUTPUT_LANGUAGE        = Russian
+EXTRACT_PRIVATE        = YES
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = png
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH            = YES
+CALLER_GRAPH          = YES
+CALL_GRAPH_FORMAT     = png

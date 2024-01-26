@@ -1,0 +1,7 @@
+<map id="errors.h" name="errors.h">
+<area shape="rect" id="node1" title="Заголовочный файл для модуля ERRORS." alt="" coords="131,5,203,32"/>
+<area shape="rect" id="node2" href="$errors_8cpp.html" title="Реализация класса ErrorTracker." alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="Главный файл программы" alt="" coords="107,155,190,181"/>
+<area shape="rect" id="node4" href="$server_8cpp.html" title="Реализация класса Server." alt="" coords="224,155,313,181"/>
+<area shape="rect" id="node5" href="$server_8h.html" title="Заголовочный файл для модуля SERVER." alt="" coords="167,80,242,107"/>
+</map>

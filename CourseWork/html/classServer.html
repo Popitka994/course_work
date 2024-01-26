@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Программная реализация сетевого сервера: Класс Server</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Программная реализация сетевого сервера
+   &#160;<span id="projectnumber">1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="classServer-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Server</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Граф связей класса Server:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServer__coll__graph.png" border="0" usemap="#aServer_coll__map" alt="Collaboration graph"/></div>
+<map name="aServer_coll__map" id="aServer_coll__map">
+<area shape="rect" title=" " alt="" coords="23,95,87,121"/>
+<area shape="rect" href="classErrorTracker.html" title=" " alt="" coords="5,5,104,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a36e22ecf3d661114777743e1697f5cbf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServer.html#a36e22ecf3d661114777743e1697f5cbf">Server</a> (<a class="el" href="classErrorTracker.html">ErrorTracker</a> *errorTracker)</td></tr>
+<tr class="memdesc:a36e22ecf3d661114777743e1697f5cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса <a class="el" href="classServer.html">Server</a>.  <a href="classServer.html#a36e22ecf3d661114777743e1697f5cbf">Подробнее...</a><br /></td></tr>
+<tr class="separator:a36e22ecf3d661114777743e1697f5cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4376b4a26fc35f73783566362aaf61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServer.html#adb4376b4a26fc35f73783566362aaf61">run</a> (int port, const std::string &amp;databaseFile, const std::string &amp;logFile)</td></tr>
+<tr class="memdesc:adb4376b4a26fc35f73783566362aaf61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запуск сервера  <a href="classServer.html#adb4376b4a26fc35f73783566362aaf61">Подробнее...</a><br /></td></tr>
+<tr class="separator:adb4376b4a26fc35f73783566362aaf61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:a3a8d1eb6bb992029e4d5fb5c2ac3a523"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServer.html#a3a8d1eb6bb992029e4d5fb5c2ac3a523">authenticateClient</a> (const std::string &amp;username, const std::string &amp;password, const std::string &amp;databaseFile)</td></tr>
+<tr class="memdesc:a3a8d1eb6bb992029e4d5fb5c2ac3a523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Аутентификация клиента  <a href="classServer.html#a3a8d1eb6bb992029e4d5fb5c2ac3a523">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3a8d1eb6bb992029e4d5fb5c2ac3a523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d0861b963621be860aa9204f2505d37"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServer.html#a5d0861b963621be860aa9204f2505d37">generateRandomSalt</a> ()</td></tr>
+<tr class="memdesc:a5d0861b963621be860aa9204f2505d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Генерация случайной соли  <a href="classServer.html#a5d0861b963621be860aa9204f2505d37">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5d0861b963621be860aa9204f2505d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b49a71bd68cd880ffa001f314d664c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServer.html#a97b49a71bd68cd880ffa001f314d664c">hashPassword</a> (const std::string &amp;password, const std::string &amp;salt)</td></tr>
+<tr class="memdesc:a97b49a71bd68cd880ffa001f314d664c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Хэширование  <a href="classServer.html#a97b49a71bd68cd880ffa001f314d664c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a97b49a71bd68cd880ffa001f314d664c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b5580b2967c4aa8a178167c8f50d1eb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classServer.html#a6b5580b2967c4aa8a178167c8f50d1eb">processVector</a> (const std::vector&lt; int64_t &gt; &amp;vector)</td></tr>
+<tr class="memdesc:a6b5580b2967c4aa8a178167c8f50d1eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вычисление по вектору  <a href="classServer.html#a6b5580b2967c4aa8a178167c8f50d1eb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6b5580b2967c4aa8a178167c8f50d1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a926c9dae229a62b6d33fdbb41dca6d82"><td class="memItemLeft" align="right" valign="top"><a id="a926c9dae229a62b6d33fdbb41dca6d82"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>port</b></td></tr>
+<tr class="separator:a926c9dae229a62b6d33fdbb41dca6d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c0c92d6034793f3a33bd8d7b5940d2"><td class="memItemLeft" align="right" valign="top"><a id="ab9c0c92d6034793f3a33bd8d7b5940d2"></a>
+<a class="el" href="classErrorTracker.html">ErrorTracker</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>errorTracker</b></td></tr>
+<tr class="separator:ab9c0c92d6034793f3a33bd8d7b5940d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a36e22ecf3d661114777743e1697f5cbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e22ecf3d661114777743e1697f5cbf">&#9670;&nbsp;</a></span>Server()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Server::Server </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classErrorTracker.html">ErrorTracker</a> *&#160;</td>
+          <td class="paramname"><em>errorTracker</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор класса <a class="el" href="classServer.html">Server</a>. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">errorTracker</td><td>Указатель на объект <a class="el" href="classErrorTracker.html">ErrorTracker</a> для отслеживания ошибок </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a3a8d1eb6bb992029e4d5fb5c2ac3a523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a8d1eb6bb992029e4d5fb5c2ac3a523">&#9670;&nbsp;</a></span>authenticateClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Server::authenticateClient </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>username</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>databaseFile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Аутентификация клиента </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">username</td><td>Имя пользователя </td></tr>
+    <tr><td class="paramname">password</td><td>Пароль </td></tr>
+    <tr><td class="paramname">databaseFile</td><td>Путь к файлу базы данных </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>true, если аутентификация успешна, иначе false </dd></dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523_icgraph.png" border="0" usemap="#aclassServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523_icgraph" alt=""/></div>
+<map name="aclassServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523_icgraph" id="aclassServer_a3a8d1eb6bb992029e4d5fb5c2ac3a523_icgraph">
+<area shape="rect" title="Аутентификация клиента" alt="" coords="249,5,441,32"/>
+<area shape="rect" href="classServer.html#adb4376b4a26fc35f73783566362aaf61" title="Запуск сервера" alt="" coords="108,5,201,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5d0861b963621be860aa9204f2505d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d0861b963621be860aa9204f2505d37">&#9670;&nbsp;</a></span>generateRandomSalt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Server::generateRandomSalt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Генерация случайной соли </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Сгенерированная соль </dd></dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServer_a5d0861b963621be860aa9204f2505d37_icgraph.png" border="0" usemap="#aclassServer_a5d0861b963621be860aa9204f2505d37_icgraph" alt=""/></div>
+<map name="aclassServer_a5d0861b963621be860aa9204f2505d37_icgraph" id="aclassServer_a5d0861b963621be860aa9204f2505d37_icgraph">
+<area shape="rect" title="Генерация случайной соли" alt="" coords="249,5,459,32"/>
+<area shape="rect" href="classServer.html#adb4376b4a26fc35f73783566362aaf61" title="Запуск сервера" alt="" coords="108,5,201,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a97b49a71bd68cd880ffa001f314d664c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b49a71bd68cd880ffa001f314d664c">&#9670;&nbsp;</a></span>hashPassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Server::hashPassword </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>salt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Хэширование </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>Пароль </td></tr>
+    <tr><td class="paramname">salt</td><td>Соль </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Строка хэша </dd></dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServer_a97b49a71bd68cd880ffa001f314d664c_icgraph.png" border="0" usemap="#aclassServer_a97b49a71bd68cd880ffa001f314d664c_icgraph" alt=""/></div>
+<map name="aclassServer_a97b49a71bd68cd880ffa001f314d664c_icgraph" id="aclassServer_a97b49a71bd68cd880ffa001f314d664c_icgraph">
+<area shape="rect" title="Хэширование" alt="" coords="249,5,413,32"/>
+<area shape="rect" href="classServer.html#adb4376b4a26fc35f73783566362aaf61" title="Запуск сервера" alt="" coords="108,5,201,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6b5580b2967c4aa8a178167c8f50d1eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b5580b2967c4aa8a178167c8f50d1eb">&#9670;&nbsp;</a></span>processVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Server::processVector </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; int64_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Вычисление по вектору </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td>Вектор </td></tr>
+    <tr><td class="paramname">salt</td><td>Соль </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>0, если вектор пуст или average - среднее врифметическое, </dd></dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServer_a6b5580b2967c4aa8a178167c8f50d1eb_icgraph.png" border="0" usemap="#aclassServer_a6b5580b2967c4aa8a178167c8f50d1eb_icgraph" alt=""/></div>
+<map name="aclassServer_a6b5580b2967c4aa8a178167c8f50d1eb_icgraph" id="aclassServer_a6b5580b2967c4aa8a178167c8f50d1eb_icgraph">
+<area shape="rect" title="Вычисление по вектору" alt="" coords="249,5,412,32"/>
+<area shape="rect" href="classServer.html#adb4376b4a26fc35f73783566362aaf61" title="Запуск сервера" alt="" coords="108,5,201,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adb4376b4a26fc35f73783566362aaf61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb4376b4a26fc35f73783566362aaf61">&#9670;&nbsp;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Server::run </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>databaseFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>logFile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Запуск сервера </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>Порт сервера </td></tr>
+    <tr><td class="paramname">databaseFile</td><td>Путь к файлу базы данных </td></tr>
+    <tr><td class="paramname">logFile</td><td>Путь к файлу журнала </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServer_adb4376b4a26fc35f73783566362aaf61_cgraph.png" border="0" usemap="#aclassServer_adb4376b4a26fc35f73783566362aaf61_cgraph" alt=""/></div>
+<map name="aclassServer_adb4376b4a26fc35f73783566362aaf61_cgraph" id="aclassServer_adb4376b4a26fc35f73783566362aaf61_cgraph">
+<area shape="rect" title="Запуск сервера" alt="" coords="5,107,99,133"/>
+<area shape="rect" href="classServer.html#a3a8d1eb6bb992029e4d5fb5c2ac3a523" title="Аутентификация клиента" alt="" coords="155,5,347,32"/>
+<area shape="rect" href="classServer.html#a5d0861b963621be860aa9204f2505d37" title="Генерация случайной соли" alt="" coords="147,56,356,83"/>
+<area shape="rect" href="classServer.html#a97b49a71bd68cd880ffa001f314d664c" title="Хэширование" alt="" coords="169,107,333,133"/>
+<area shape="rect" href="classServer.html#a6b5580b2967c4aa8a178167c8f50d1eb" title="Вычисление по вектору" alt="" coords="170,157,333,184"/>
+<area shape="rect" href="classErrorTracker.html#ab1851854c0f19f5578426c2447155dc2" title="Запись ошибок" alt="" coords="163,208,340,235"/>
+</map>
+</div>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classServer_adb4376b4a26fc35f73783566362aaf61_icgraph.png" border="0" usemap="#aclassServer_adb4376b4a26fc35f73783566362aaf61_icgraph" alt=""/></div>
+<map name="aclassServer_adb4376b4a26fc35f73783566362aaf61_icgraph" id="aclassServer_adb4376b4a26fc35f73783566362aaf61_icgraph">
+<area shape="rect" title="Запуск сервера" alt="" coords="108,5,201,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="server_8h_source.html">server.h</a></li>
+<li><a class="el" href="server_8cpp.html">server.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

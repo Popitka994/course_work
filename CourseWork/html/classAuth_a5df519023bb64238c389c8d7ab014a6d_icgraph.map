@@ -1,0 +1,4 @@
+<map id="Auth::hashPassword" name="Auth::hashPassword">
+<area shape="rect" id="node1" title="Хэширование пароля с использованием соли" alt="" coords="196,5,348,32"/>
+<area shape="rect" id="node2" href="$classAuth.html#aa974dffec6054837d6b2b48cbbf51b5c" title="Аутентификация пользователя" alt="" coords="5,5,148,32"/>
+</map>

@@ -1,0 +1,1 @@
+Debug/auth.cpp.o Debug/errors.cpp.o Debug/server.cpp.o Debug/tests_main.cpp.o Debug/main.cpp.o

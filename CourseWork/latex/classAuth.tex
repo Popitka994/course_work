@@ -1,0 +1,79 @@
+\hypertarget{classAuth}{}\doxysection{Класс Auth}
+\label{classAuth}\index{Auth@{Auth}}
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAuth_a220a768d3f714876116203ce006ae2b9}\label{classAuth_a220a768d3f714876116203ce006ae2b9}} 
+static std\+::string {\bfseries generate\+Random\+Salt} ()
+\item 
+static std\+::string \mbox{\hyperlink{classAuth_a5df519023bb64238c389c8d7ab014a6d}{hash\+Password}} (const std\+::string \&password, const std\+::string \&salt)
+\begin{DoxyCompactList}\small\item\em Хэширование пароля с использованием соли \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classAuth_aa974dffec6054837d6b2b48cbbf51b5c}{authenticate}} (const std\+::string \&username, const std\+::string \&password, const std\+::string \&database\+File)
+\begin{DoxyCompactList}\small\item\em Аутентификация пользователя \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classAuth_aa974dffec6054837d6b2b48cbbf51b5c}\label{classAuth_aa974dffec6054837d6b2b48cbbf51b5c}} 
+\index{Auth@{Auth}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!Auth@{Auth}}
+\doxysubsubsection{\texorpdfstring{authenticate()}{authenticate()}}
+{\footnotesize\ttfamily bool Auth\+::authenticate (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{username,  }\item[{const std\+::string \&}]{password,  }\item[{const std\+::string \&}]{database\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Аутентификация пользователя 
+
+Этот метод проверяет подлинность пользователя, сравнивая предоставленные имя пользователя и пароль с данными из базы данных. 
+\begin{DoxyParams}{Аргументы}
+{\em username} & Имя пользователя \\
+\hline
+{\em password} & Пароль \\
+\hline
+{\em database\+File} & Путь к файлу базы данных \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true, если аутентификация успешна, false в противном случае 
+\end{DoxyReturn}
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{classAuth_aa974dffec6054837d6b2b48cbbf51b5c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAuth_a5df519023bb64238c389c8d7ab014a6d}\label{classAuth_a5df519023bb64238c389c8d7ab014a6d}} 
+\index{Auth@{Auth}!hashPassword@{hashPassword}}
+\index{hashPassword@{hashPassword}!Auth@{Auth}}
+\doxysubsubsection{\texorpdfstring{hashPassword()}{hashPassword()}}
+{\footnotesize\ttfamily std\+::string Auth\+::hash\+Password (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{password,  }\item[{const std\+::string \&}]{salt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Хэширование пароля с использованием соли 
+
+Этот метод принимает пароль и соль, объединяет их, затем хэширует с использованием алгоритма MD5. 
+\begin{DoxyParams}{Аргументы}
+{\em password} & Пароль \\
+\hline
+{\em salt} & Соль \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Хэшированный пароль в виде строки 
+\end{DoxyReturn}
+Граф вызова функции\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{classAuth_a5df519023bb64238c389c8d7ab014a6d_icgraph}
+\end{center}
+\end{figure}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{auth_8h}{auth.\+h}}\item 
+\mbox{\hyperlink{auth_8cpp}{auth.\+cpp}}\end{DoxyCompactItemize}
